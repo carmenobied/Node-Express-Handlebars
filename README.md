@@ -23,6 +23,8 @@ iii. Run the command-lines below to run the app functionality. You can also acce
 iv. Explore the app, which allows users to input the names of burgers they'd like to eat and tracks/stores it in a database.
 v. App deployed on Heroku (utilize the MYSQL Heroku Deployment Guide)
 ```
+If everything was installed correctly, you should be able to run it locally in http://localhost:8080/.
+
 ## Instructions
 
 #### App Setup
