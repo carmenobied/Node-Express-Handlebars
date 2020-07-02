@@ -23,6 +23,11 @@ iii. Run the command-lines below to run the app functionality. You can also acce
 iv. Explore the app, which allows users to input the names of burgers they'd like to eat and tracks/stores it in a database.
 v. App deployed on Heroku (utilize the MYSQL Heroku Deployment Guide)
 ```
+To add `.env` file to local drive with the environmental variables in the root directory:
+1. Run `npm install dotenv` in the root directory - [dotenv package](https://www.npmjs.com/package/dotenv)
+3. Create `.env file` and add the **environmental variables**
+4. Run `node app.js` 
+
 If everything was installed correctly, you should be able to run it locally in http://localhost:8080/.
 
 ## Instructions

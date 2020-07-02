@@ -1,20 +1,37 @@
+#burger_logo {
+  width: 45%;
+  display: block;
+}
+
+.main_title {
+  padding-top: 20%;
+  font-size: 3em;
+}
+
 li {
     padding: 5px;
     margin: 5px;
     background: #faebd7;
   }
-  
-  .label {
-    font-weight: bold;
-  }
-  
-  .create-update-form {
-    padding: 5px;
-    margin: 5px;
-    background: aqua;
-  }
-  
-  .form-group {
-    margin-bottom: 5px;
-  }
-  
+
+ul {
+  list-style-type: none;
+}
+
+.update-devoured {
+  background-color:cadetblue;
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  margin-left: 15%;
+}
+    
+.burgerDevoured {
+  font-size: 1.2em;
+  color:darkgoldenrod;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0; 
+}
