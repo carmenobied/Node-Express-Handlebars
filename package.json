@@ -4,9 +4,12 @@
   "description": "![Project license badge](https://img.shields.io/badge/license-MIT-brightgreen)",
   "main": "server.js",
   "dependencies": {
+    "do": "^0.5.13",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-handlebars": "^4.0.4",
-    "mysql": "^2.18.1"
+    "mysql": "^2.18.1",
+    "sequelize": "^6.2.4"
   },
   "devDependencies": {},
   "scripts": {

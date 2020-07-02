@@ -2,6 +2,8 @@
 $(function() {
     $(".update-devoured").on("click", function(event) {
       const id = $(this).data("id");
+      console.log(id);
+
     //   const updateDevoured = $(this).data("updateDevoured");
   
       const updatedDevouredState = {
@@ -14,7 +16,7 @@ $(function() {
         data: updatedDevouredState
       }).then(
         function() {
-          console.log("update Devoured to", updateDevouredState);
+          console.log("update Devoured to", id);
           // Reload the page to get the updated list
           location.reload();
         }
@@ -27,9 +29,9 @@ $(function() {
   
       const updatedBurger = {
         burger_name: $("#bu").val().trim(),
-        devoured_burger: 0
       };
-  
+      console.log(updatedBurger);
+
       // Send the POST request.
       $.ajax("/api/burgers", {
         type: "POST",

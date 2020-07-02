@@ -3,14 +3,14 @@ var mysql = require("mysql");
 
 const DB_password = process.env.BurgersDB_URL;
 
-if(process.env.BurgersDB_URL) {
-  connection = mysql.createConnection(process.env.BurgersDB_URL);
+if(process.env.JAWSDB_URL) {
+  connection = mysql.createConnection(process.env.JAWSDB_URL);
 } else {
   connection = mysql.createConnection({
     host: "localhost",
     port: 3306,
     user: "root",
-    password: DB_password,
+    password: "Nomad7285!",
     database: "burgers_db"
   })
 }
