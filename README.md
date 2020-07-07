@@ -3,10 +3,12 @@
 
 The goal was to create a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM, by following the MVC design pattern, using Node and MySQL to query and route data in the app, and Handlebars to generate the HTML. 
 
-Bottomless-Burgers! is a restaurant app that lets users input the names of burgers they'd like to eat. The app involves the following functionalities:
+Bottomless-Burgers is a restaurant app that lets users input the names of burgers they'd like to eat. The app involves the following functionalities:
 * Whenever a user submits a burger's name, the app will display the burger on the left side of the page -- waiting to be devoured.
 * Each burger in the waiting area also has a `Devour it!` button. When the user clicks it, the burger will move to the right side of the page.
 * The app will store every burger in a database, whether devoured or not.
+
+Explore the app here: [Bottomless Burgers App](https://git.heroku.com/protected-dawn-84534.git).
 
 # Table of Contents
   * [Installation](#Installation)
@@ -30,7 +32,9 @@ To add `.env` file to local drive with the environmental variables in the root d
 
 If everything was installed correctly, you should be able to run it locally in http://localhost:8080/.
 
-```
+## Deployed Application
+Application deployed on Heroku: [Bottomless Burgers App](https://git.heroku.com/protected-dawn-84534.git).
+
 ## Usage
 ```
 Key Components Used:
@@ -38,6 +42,7 @@ MVC - Express - Node - MySQL - Handlebars - JavaScript - ORM - Heroku
 ```
 Below is a screenshot of the application functionality:
 ![App Screenshot](public/assets/images/BurgerApp_screenshot.png)
+
 
 ## Contributing
 Pull requests are welcome. Please use the [Contributor Covenant Code of Conduct](https://www.contributor-covenant.org/version/2/0/code_of_conduct/code_of_conduct.md) and for major changes, please open an issue beforehand to discuss the changes.
