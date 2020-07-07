@@ -5,7 +5,7 @@ $(function() {
     const id = $(this).data("id");
 
     const updatedDevouredState = {
-      devoured: 1
+      devoured_burger: 1
     };
 
     // Send the PUT request.
@@ -20,7 +20,7 @@ $(function() {
       }
     );
   });
-
+  
   // POST *************************************************
   $(".create-form").on("submit", function(event) {
     // Make sure to preventDefault on a submit event.

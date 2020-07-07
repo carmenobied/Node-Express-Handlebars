@@ -30,9 +30,8 @@
             {{#unless devoured_name}}
             <li class = "burgerNames">
               {{burger_name}}
-              <button  type="button" class="update-devoured" data-id="{{id}}" data-devoured_burger="{{devoured_burger}}">
+              <button  type="button" class="update-devoured" data-id="{{id}}">
                 <i class="fa fa-utensils" aria-hidden="true"></i> DEVOUR IT NOW!</button>
-              {{!-- <button type="button" class="update-devoured" data-id={{this.id}}>DEVOUR</button> --}}
             </li>
             {{/unless}}
             {{/each}}

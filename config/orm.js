@@ -56,6 +56,7 @@ const printQuestionMarks = num => {
     // objColVals
     update: (table, objColVals, condition, cb) => {
       const queryString = `UPDATE ${table} SET ${objToSql(objColVals)} WHERE ${condition}`;
+      
       console.log(queryString);
 
       connection.query(queryString, (err, result) => {
