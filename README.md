@@ -8,7 +8,7 @@ Bottomless-Burgers is a restaurant app that lets users input the names of burger
 * Each burger in the waiting area also has a `Devour it!` button. When the user clicks it, the burger will move to the right side of the page.
 * The app will store every burger in a database, whether devoured or not.
 
-Explore the app here: [Bottomless Burgers App](https://git.heroku.com/protected-dawn-84534.git).
+Explore the app here: [Bottomless Burgers App](https://protected-dawn-84534.herokuapp.com/).
 
 # Table of Contents
   * [Installation](#Installation)
@@ -33,7 +33,7 @@ To add `.env` file to local drive with the environmental variables in the root d
 If everything was installed correctly, you should be able to run it locally in http://localhost:8080/.
 
 ## Deployed Application
-Application deployed on Heroku: [Bottomless Burgers App](https://git.heroku.com/protected-dawn-84534.git).
+Application deployed on Heroku: [Bottomless Burgers App](https://protected-dawn-84534.herokuapp.com/).
 
 ## Usage
 ```
