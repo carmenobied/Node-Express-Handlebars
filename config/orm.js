@@ -66,16 +66,16 @@ const printQuestionMarks = num => {
   
         cb(result);
       });
+    },
+    delete: (table, condition, cb) => {
+      const queryString = `DELETE FROM ${table} WHERE ${condition}`;
+      connection.query(queryString, (err, data) => {
+        if (err) {
+          throw err;
+        }
+        cb(data);
+      });
     }
-    // delete: (table, condition, cb) => {
-      // const queryString = `DELETE FROM ${table} WHERE ${condition}`;
-    //   connection.query(queryString, (err, data) => {
-    //     if (err) {
-    //       throw err;
-    //     }
-    //     cb(data);
-    //   });
-    // }
   };
   
   // Export the orm object for the model (burger).js).

@@ -9,8 +9,8 @@
 }
 
 li {
-    padding: 5px;
-    margin: 5px;
+    padding: 10px;
+    margin: 10px;
     background: #faebd7;
   }
 
@@ -22,8 +22,15 @@ ul {
   background-color:cadetblue;
   color: white;
   font-size: 12px;
-  position: absolute;
-  margin-left: 15%;
+  display: inline-block;
+}
+
+.delete-burger {
+  background-color: slategray;
+  color: white;
+  font-size: 12px;
+  position: relative;
+  margin-left: 3%;
 }
     
 .devouredBurger {
