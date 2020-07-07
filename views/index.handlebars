@@ -2,33 +2,37 @@
   <div class="row">
     <div class="col-sm-6">
       <h1 class="main_title">Bottomless-Burgers</h1>
+      
+      {{!-- ADD A BURGER --}}
       <p class="text">Add unlimited tasty burgers and devour them!</p>
-      <form class="create-form updatedBurger">
+      <form class="create-form updateBurger">
         <div class="form-group">
-          <input type="text" id="bu" name="name" placeholder="Add a burger"><button class="button"
+          <input type="text" id="bu" name="name" placeholder="Add a new burger"><button class="button"
             type="submit">Add a new burger!</button>
         </div>
       </form>
     </div>
 
+    {{!-- Burger Image Logo --}}
     <div class="col-sm-6">
       <img src="/assets/images/burger_logo.png" alt="burger logo" id="burger_logo">
     </div>
-  </div>
+    </div>
 
+  {{!-- UNDEVOURED BURGERS --}}
   <div class="row">
-
     <div class="col-sm-6">
       <div class="card">
         <h3 class="card-header bg-info text-light">Feeling peckish? Devour a burger!</h3>
-
         <div class="card-body">
           <ul>
             {{#each burgers}}
             {{#unless devoured_name}}
             <li class = "burgerNames">
               {{burger_name}}
-              <button type="button" class="update-devoured" data-id={{this.id}}>DEVOUR IT NOW!</button>
+              <button  type="button" class="update-devoured" data-id="{{id}}" data-devoured_burger="{{devoured_burger}}">
+                <i class="fa fa-utensils" aria-hidden="true"></i> DEVOUR IT NOW!</button>
+              {{!-- <button type="button" class="update-devoured" data-id={{this.id}}>DEVOUR</button> --}}
             </li>
             {{/unless}}
             {{/each}}
@@ -36,14 +40,17 @@
         </div>
       </div>
     </div>
+
+    {{!-- DEVOURED BURGERS --}}
     <div class="col-sm-6">
       <div class="card">
         <h3 class="card-header bg-info text-light">Devoured Burgers!</h3>
-        <div 3lass="card-body">
+        <div class="card-body">
           <ul>
             {{#each burgers}}
-            {{#if devoured}}
-            <li class="burgerDevoured">{{burger_name}}</li>
+            {{#if devoured_burger}}
+            <li class="devouredBurger" data-id="{{id}}" data-burger_name="{{burger_name}}></li>
+            {{!-- <li class="burgerDevoured">{{burger_name}}</li> --}}
             {{/if}}
             {{/each}}
           </ul>
@@ -53,7 +60,3 @@
   </div>
 </div>
 </div>
-<br>
-
-<!-- image link -->
-{{!-- <a class="footer" href="https://www.freepik.com/premium-photo/floating-burger-isolated_5808763.htm">Burger Logo Source</a> --}}
