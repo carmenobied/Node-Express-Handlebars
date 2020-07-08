@@ -34,7 +34,7 @@ const printQuestionMarks = num => {
   
   // Object for all our SQL statement functions.
   const orm = {
-    all: (tableInput, cb) => {
+    selectAll: (tableInput, cb) => {
       const queryString = `SELECT * FROM ${tableInput};`;
       connection.query(queryString, (err, result) => {
         if (err) {
@@ -43,7 +43,7 @@ const printQuestionMarks = num => {
         cb(result);
       });
     },
-    create: (table, cols, vals, cb) => {
+    insertOne: (table, cols, vals, cb) => {
       const queryString = `INSERT INTO ${table} (${cols.toString()}) VALUES (${printQuestionMarks(vals.length)})`
       console.log(queryString);
       connection.query(queryString, vals, (err, result) => {
@@ -54,7 +54,7 @@ const printQuestionMarks = num => {
       });
     },
     // objColVals
-    update: (table, objColVals, condition, cb) => {
+    updateOne: (table, objColVals, condition, cb) => {
       const queryString = `UPDATE ${table} SET ${objToSql(objColVals)} WHERE ${condition}`;
       
       console.log(queryString);
