@@ -52,7 +52,7 @@ Technologies Used:
 MVC - Node.js - Express - JavaScript - MySQL - Handlebars - jQuery - ORM 
 ```
 Below is a screenshot of the deployed application functionality:
-![Bottomless Burgers App](public/assets/images/BurgerApp_Deployed_screenshot.png)
+![Bottomless Burgers App](/public/assets/images/BurgerApp_Deployed_Screenshot.png)
 
 ## Contributing
 Pull requests are welcome. Please use the [Contributor Covenant Code of Conduct](https://www.contributor-covenant.org/version/2/0/code_of_conduct/code_of_conduct.md) and for major changes, please open an issue beforehand to discuss the changes.
