@@ -21,9 +21,9 @@ Explore the app here: [Bottomless Burgers App](https://protected-dawn-84534.hero
 
 ## User Story
 ```
-AS A user, I want to be able to enter the burgers I want to devour into a waiting area
+AS A user, I want to be insert burgers that I want to devour into a waiting area
 
-I WANT to be able to move the burger to the devoured area if I've devoured it
+THEN, I want to update select burgers to the devoured area if I've devoured them
 
 SO THAT I can have a log of all the burgers that I have devoured
 ```
