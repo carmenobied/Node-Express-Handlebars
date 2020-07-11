@@ -3,10 +3,7 @@
 
 The goal was to create a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM, by following the MVC design pattern, using Node and MySQL to query and route data in the app, and Handlebars to generate the HTML. 
 
-Bottomless-Burgers is a restaurant app that lets users input the names of burgers they'd like to eat. The app involves the following functionalities:
-* Whenever a user submits a burger's name, the app will display the burger on the left side of the page -- waiting to be devoured.
-* Each burger in the waiting area also has a `Devour it!` button. When the user clicks it, the burger will move to the right side of the page.
-* The app will store every burger in a database, whether devoured or not.
+Bottomless-Burgers is a restaurant app that lets users input the names of burgers they'd like to eat and track the burgers that have been eaten. 
 
 Explore the app here: [Bottomless Burgers App](https://protected-dawn-84534.herokuapp.com/).
 
@@ -21,7 +18,7 @@ Explore the app here: [Bottomless Burgers App](https://protected-dawn-84534.hero
 
 ## User Story
 ```
-AS A user, I want to be insert burgers that I want to devour into a waiting area
+AS A user, I want to insert burgers that I want to devour into a waiting area
 
 THEN, I want to update select burgers to the devoured area if I've devoured them
 
@@ -47,6 +44,11 @@ If everything was installed correctly, you should be able to run it locally in h
 Application deployed on Heroku: [Bottomless Burgers App](https://protected-dawn-84534.herokuapp.com/).
 
 ## Usage
+The app involves the following functionalities:
+* Whenever a user submits a burger's name, the app will display the burger on the left side of the page -- waiting to be devoured.
+* Each burger in the waiting area also has a `Devour it!` button. When the user clicks it, the burger will move to the right side of the page.
+* The app will store every burger in a database, whether devoured or not.
+
 ```
 Technologies Used:
 MVC - Node.js - Express - JavaScript - MySQL - Handlebars - jQuery - ORM 
