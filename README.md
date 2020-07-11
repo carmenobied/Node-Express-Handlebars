@@ -58,7 +58,7 @@ Below is a screenshot of the deployed application functionality:
 Pull requests are welcome. Please use the [Contributor Covenant Code of Conduct](https://www.contributor-covenant.org/version/2/0/code_of_conduct/code_of_conduct.md) and for major changes, please open an issue beforehand to discuss the changes.
 
 ## License 
-[MIT](https://github.com/carmenobied/Node-Express-Handlebars/blob/master/LICENSE) | Copyright © 2020 Carmen Obied
+[MIT License](https://github.com/carmenobied/Node-Express-Handlebars/blob/master/LICENSE) | Copyright © 2020 Carmen Obied
 
 ## Tests 
 There are currently no tests for this project.
