@@ -11,11 +11,22 @@ Bottomless-Burgers is a restaurant app that lets users input the names of burger
 Explore the app here: [Bottomless Burgers App](https://protected-dawn-84534.herokuapp.com/).
 
 # Table of Contents
+  * [User Story](#User-Story)
   * [Installation](#Installation)
   * [Usage](#Usage)
   * [Contributing](#Contributing)
   * [License](#License)
+  * [Tests](#License)
   * [Questions](#Questions)
+
+## User Story
+```
+AS A user, I want to be able to enter the burgers I want to devour into a waiting area
+
+I WANT to be able to move the burger to the devoured area if I've devoured it
+
+SO THAT I can have a log of all the burgers that I have devoured
+```
 
 ## Installation
 ```
@@ -37,17 +48,20 @@ Application deployed on Heroku: [Bottomless Burgers App](https://protected-dawn-
 
 ## Usage
 ```
-Key Components Used:
-MVC - Express - Node - MySQL - Handlebars - JavaScript - ORM - Heroku
+Technologies Used:
+MVC - Node.js - Express - JavaScript - MySQL - Handlebars - jQuery - ORM 
 ```
 Below is a screenshot of the deployed application functionality:
-![App Screenshot](public/assets/images/BurgerApp_Deployed_screenshot.png)
+![Bottomless Burgers App](public/assets/images/BurgerApp_Deployed_screenshot.png)
 
 ## Contributing
 Pull requests are welcome. Please use the [Contributor Covenant Code of Conduct](https://www.contributor-covenant.org/version/2/0/code_of_conduct/code_of_conduct.md) and for major changes, please open an issue beforehand to discuss the changes.
 
 ## License 
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://github.com/carmenobied/Node-Express-Handlebars/blob/master/LICENSE) | Copyright © 2020 Carmen Obied
+
+## Tests 
+There are currently no tests for this project.
 
 ## Questions  
 Have questions? Contact me at:
